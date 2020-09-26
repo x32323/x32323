@@ -68,4 +68,13 @@ export function isJsonStr(str: string): boolean{
     }
 }
 
+// export default {
+//     "dirFiles": dirFiles,
+//     "read": read,
+//     "write": write,
+//     "size": size,
+//     "isExists": isExists,
+//     "isJsonStr": isJsonStr
+// }
+
 

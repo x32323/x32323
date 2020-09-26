@@ -1,6 +1,6 @@
-import * as file from './file';
-import * as time from './time';
-import * as number from './number';
+import * as file from './modules/file';
+import * as time from './modules/time';
+import * as number from './modules/number';
 export { file, time, number };
 declare const _default: {
     file: typeof file;
@@ -8,3 +8,8 @@ declare const _default: {
     number: typeof number;
 };
 export default _default;
+export interface Modules {
+    file: new () => typeof file;
+    time: new () => typeof time;
+    number: new () => typeof number;
+}
