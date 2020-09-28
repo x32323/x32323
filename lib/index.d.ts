@@ -1,3 +1,6 @@
+export * from './modules/file';
+export * from './modules/time';
+export * from './modules/number';
 import * as file from './modules/file';
 import * as time from './modules/time';
 import * as number from './modules/number';
